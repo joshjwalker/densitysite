@@ -11,9 +11,9 @@ const Footer = () => {
             What you do with it is on you.
           </p>
           <div className="footer-bottom">
-            <span className="footer-logo">DENSITY</span>
+            <span className="footer-logo">DENSITY <span className="logo-accent">SOLUTIONS</span></span>
             <div className="footer-links">
-              <a href="mailto:hello@density.dev">contact@densityconsulting.com</a>
+              <a href="mailto:jwalker@densitysolutions.io">jwalker@densitysolutions.io</a>
               <a href="/privacy">Privacy Policy</a>
             </div>
           </div>

@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <a href="/" className="header-logo">
-          DENSITY
+          DENSITY <span className="logo-accent">SOLUTIONS</span>
         </a>
         <nav className="header-nav">
           <a href="#what-we-do">What We Do</a>

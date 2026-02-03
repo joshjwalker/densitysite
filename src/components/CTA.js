@@ -12,7 +12,7 @@ const CTA = () => {
         <p>What if that assumption is wrong?</p>
         <form
           className="contact-form"
-          action="https://formsubmit.co/josh@ethicrising.com"
+          action="https://formsubmit.co/4223b338fc3ea669b630132fc715512f"
           method="POST"
         >
           <input type="hidden" name="_subject" value="New Density inquiry" />
