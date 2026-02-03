@@ -16,6 +16,9 @@ const Hero = () => {
           <br />
           You're still building with the old one.
         </p>
+        <a href="#contact" className="btn-primary hero-btn">
+          Learn How
+        </a>
       </div>
       <div className="hero-scroll">
         <span>Scroll to continue</span>
