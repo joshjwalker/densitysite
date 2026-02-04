@@ -2,57 +2,45 @@ import React from "react"
 
 const CTA = () => {
   return (
-    <section className="cta" id="contact">
+    <section className="early-access" id="early-access">
       <div className="container">
-        <h2>
-          Your roadmap assumes
-          <br />
-          your current velocity.
-        </h2>
-        <p>What if that assumption is wrong?</p>
+        <h2>Get early access.</h2>
+        <p>We're onboarding teams now. Drop your email and we'll be in touch.</p>
         <form
-          className="contact-form"
+          className="early-access-form"
           action="https://formsubmit.co/4223b338fc3ea669b630132fc715512f"
           method="POST"
         >
-          <input type="hidden" name="_subject" value="New Density inquiry" />
+          <input type="hidden" name="_subject" value="Swarm Runner - Early Access Request" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="table" />
-          <div className="form-row">
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your name"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="you@company.com"
-                required
-              />
-            </div>
-          </div>
           <div className="form-group">
-            <label htmlFor="message">What Needs To Speed Up?</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Tell us about your current development process and what you'd like to accelerate..."
-              rows="5"
+            <input
+              type="email"
+              name="email"
+              placeholder="Work email"
               required
             />
           </div>
-          <button type="submit" className="btn-primary">
-            Let's Find Out
-          </button>
+          <div className="form-group">
+            <input
+              type="text"
+              name="company"
+              placeholder="Company name (optional)"
+            />
+          </div>
+          <div className="form-group">
+            <select name="team_size" defaultValue="">
+              <option value="" disabled>Team size (optional)</option>
+              <option value="1-5">1-5</option>
+              <option value="6-20">6-20</option>
+              <option value="21-50">21-50</option>
+              <option value="51-200">51-200</option>
+              <option value="200+">200+</option>
+            </select>
+          </div>
+          <button type="submit" className="btn-cta">Request Access</button>
+          <p className="early-access-note">No spam. No sales drip. Just early access.</p>
         </form>
       </div>
     </section>

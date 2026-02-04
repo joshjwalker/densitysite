@@ -5,19 +5,16 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <p className="footer-disclaimer">
-            This isn't a gimmick. This is information about how things work now.
-            <br />
-            What you do with it is on you.
-          </p>
-          <div className="footer-bottom">
-            <span className="footer-logo">DENSITY<br /><span className="logo-accent">SOLUTIONS</span></span>
+          <span className="footer-logo">Swarm Runner</span>
+          <div className="footer-right">
             <div className="footer-links">
-              <a href="mailto:jwalker@densitysolutions.io">jwalker@densitysolutions.io</a>
-              <a href="/privacy">Privacy Policy</a>
+              <a href="#features">About</a>
+              <a href="#how-it-works">White Paper</a>
+              <a href="#early-access">Contact</a>
             </div>
           </div>
         </div>
+        <p className="footer-copyright">&copy; 2024 Swarm Runner. All rights reserved.</p>
       </div>
     </footer>
   )

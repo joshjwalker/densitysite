@@ -4,14 +4,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <a href="/" className="header-logo">
-          DENSITY<br /><span className="logo-accent">SOLUTIONS</span>
-        </a>
+        <a href="/" className="header-logo">Swarm Runner</a>
         <nav className="header-nav">
-          <a href="#what-we-do">What We Do</a>
-          <a href="#how-were-different">How We're Different</a>
-          <a href="#results">Results</a>
-          <a href="#contact">Contact</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#features">Features</a>
+          <a href="#early-access">Early Access</a>
         </nav>
       </div>
     </header>

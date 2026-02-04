@@ -1,9 +1,9 @@
 import React from "react"
 
 const Seo = ({ title, description }) => {
-  const siteTitle = "Density"
+  const siteTitle = "Swarm Runner"
   const defaultDescription =
-    "Software development has a new physics. We turn slow teams into fast ones."
+    "An AI-powered collaboration platform that collapses the distance between product vision and shipped code."
 
   return (
     <>
